@@ -1,0 +1,26 @@
+{
+  "name": "chat-room",
+  "version": "1.0.0",
+  "description": "Projet de Chat-Room en nodejs pour la formation simplon",
+  "homepage": "https://github.com/Bambino48/Chat-Room#readme",
+  "bugs": {
+    "url": "https://github.com/Bambino48/Chat-Room/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bambino48/Chat-Room.git"
+  },
+  "license": "ISC",
+  "author": "Ibrahim Bamba",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon  backend/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
